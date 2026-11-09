@@ -5,32 +5,35 @@
 # Malaysia Birth Registration Analysis (2021-2022)
 
 ## 📌 Project Background
-This project focuses on **Data Storytelling and Visualization** using **Tableau**. Using official birth registration data from Malaysia (2021-2022), I analyzed population trends across genders, states, and ethnicities. The goal was to translate raw demographic data into meaningful insights that are easy for stakeholders to understand.
+This project uses **Tableau** to analyze birth registration data in Malaysia (2021-2022) by gender, state, and ethnicity. The goal was to turn raw numbers into clear insights that management can easily understand.
 
-## 📊 Key Insights & Analysis
+##  Key Insights & Analysis
 
 ### 1. Birth Registration by Gender
 ![Gender Bar Chart](images/viz1_gender.png)
-**Analysis:** In every month, male births consistently outnumbered female births, indicating a larger male population. September recorded the highest number of registrations for both genders, while June had the lowest (2,190 males and 2,058 females). This visualization makes it easy for policymakers to clearly see the monthly gender trends.
+
+**What the data shows:** Male births are higher than female births every single month. September had the highest number of births overall, while June had the lowest (2,190 males and 2,058 females). This chart makes it easy to see the monthly trends at a glance.
 
 ### 2. Total Birth Registration by State (Map)
 ![State Map](images/viz2_map.png)
-**Analysis:** The map uses a color gradient where light blue indicates low registration and dark navy blue indicates high registration. Perlis had the lowest total (4,593) in 2021, which correlates with it being the smallest state in Malaysia. Conversely, Selangor had the highest (73,077). This proves that a small geographical size does not necessarily mean low birth registration, and vice versa.
+
+**What the data shows:** The map uses a light blue to dark blue color scale (light = low, dark = high). Perlis had the lowest births (4,593) because it is the smallest state. Selangor had the highest births (73,077). This proves that a small state doesn't always mean fewer births, and a big state doesn't always mean more.
 
 ### 3. Top 10 Ranking States
 ![Running Bar Chart](images/viz3_ranking.png)
-**Analysis:** Using a Running Bar Chart, I tracked the top 10 states for birth registration across 2021 and 2022. In January 2021, Selangor led with over 5,500 registrations, followed by Johor and Sabah. The bottom three states were Wilayah Persekutuan, Pahang, and Terengganu. This chart format makes it instantly clear which state is leading on any given date.
+
+**What the data shows:** This running bar chart tracks the top 10 states for every month. In January 2021, Selangor led with over 5,500 births, followed by Johor and Sabah. The bottom three were Wilayah Persekutuan, Pahang, and Terengganu. This chart format makes it very clear which state is leading on any specific date.
 
 ### 4. Ethnicity Breakdown
 ![Donut Chart](images/viz4_ethnicity.png)
-**Analysis:** The donut chart visualizes Malaysia's rich diversity. The Malay population is the largest (67.83%), followed by Chinese (9.87%), Sabah Ethnic groups (8.17%), and Indian (4.12%). Orang Asli Semenanjung represents the smallest percentage. This chart clearly highlights the unique multicultural composition of Malaysia.
 
-## 💡 Conclusion
-Birth registration is crucial for individual rights and national development. It provides legal recognition, identity, and access to essential services. By analyzing these demographic trends, we can predict future birth registration rates, improve resource allocation, and safeguard the well-being of Malaysian citizens.
+**What the data shows:** The donut chart shows the breakdown of births by ethnicity. The Malay population is the largest at 67.83%, followed by Chinese (9.87%), Sabah Ethnic groups (8.17%), Indian (4.12%), and finally Orang Asli. This clearly highlights Malaysia's diverse population.
 
-## 🛠️ Tech Stack
+##  Conclusion
+Birth registration is important for legal identity and access to services. By analyzing these trends, we can predict future birth rates and help the government plan better for the future.
+
+##  Tech Stack
 - **Tableau** (Data Visualization & Storytelling)
-- **Data Analysis** (Insight generation)
 
 ---
 *Developed by Faiznajmi Bin Abd Rauf*
